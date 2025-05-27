@@ -1,0 +1,22 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  flex: 1;
+  min-width: 300px;
+}
+
+.bars {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-end;
+  height: 120px;
+  margin-top: 1rem;
+}
+
+.bar {
+  width: 20px;
+  background: #1ac9a8;
+  border-radius: 4px 4px 0 0;
+}
