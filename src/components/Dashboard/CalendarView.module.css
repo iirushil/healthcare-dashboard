@@ -1,0 +1,29 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  flex: 1;
+  min-width: 300px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.day {
+  background: #f6f8fa;
+  padding: 0.8rem;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+.dot {
+  font-size: 0.7rem;
+  color: #1ac9a8;
+  margin-top: 0.3rem;
+}
